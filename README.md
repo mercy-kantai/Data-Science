@@ -1,4 +1,4 @@
-## Data-Science
+# Data-Science
 
 This repository contains three files tuples,stacks and queues.
 
