@@ -1,4 +1,4 @@
-# Data-Science
+# # Data-Science
 
 This repository contains three files tuples,stacks and queues.
 
@@ -21,3 +21,11 @@ and no randon access. Stacks are stored in a LIFO FILO format meaning last item 
 A queue is a linear data structure that has follows three principles, FIFO, LIFO and priority.
 Advanatges of queues is that it maintains order , it is also used to implement other data structure such as stacks.
 Disadvantges are that queue has no random access and also it has limited capacity.
+
+
+# Tower Of Hanoi
+
+Tower Of Hanoi is a mathematical game in which we 3 identical rods and n disks all of different sizes and 
+aranging them in the orginal order.
+It has 3 rules. First rule is only one disk can be moved from one rod to another, secondly a big disck should not be 
+on top of a small disk and lastly only a disk at the top can moved from one rod to another.
