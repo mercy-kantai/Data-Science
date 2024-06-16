@@ -8,4 +8,7 @@ print(my_stack)
 #accessing items in a stack
 print(my_stack[-1])
 
+#removing an item in stack
+my_stack.pop()
+print(my_stack)
 
