@@ -6,6 +6,6 @@ def TOH(numbers, start, auxilary,end):
     print("move disk{} from rod {} to rod {}".format(numbers,start,end))
     TOH(numbers -1, auxilary, start,end)
 
-disc = 4
+disc = 5
 TOH(disc,"Start","Auxilary","End")
     
