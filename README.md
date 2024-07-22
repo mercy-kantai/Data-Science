@@ -29,3 +29,12 @@ Tower Of Hanoi is a mathematical game in which we 3 identical rods and n disks a
 aranging them in the orginal order.
 It has 3 rules. First rule is only one disk can be moved from one rod to another, secondly a big disck should not be 
 on top of a small disk and lastly only a disk at the top can moved from one rod to another.
+
+# Heaps
+
+Heaps is complete binary tree data structure that satisfies the heap property: for every node, the value of its
+children is less than or equal to its owns value. There are two types of heaps: 
+Max Heaps, the root node contains the maximum value, and the values decrease as you move down the tree.
+Min Heaps, The root node contains the maximum value,
+and the values increase as you move down the tree.
+
