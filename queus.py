@@ -2,22 +2,26 @@
 
 
 #Method one
-# # FIFO Principle
+# FIFO Principle
 import queue
 queu_1 = queue.Queue()
 queu_1.put(10)
+queu_1.put(14)
 queu_1.put("Mercy")
-queu_1.put(20.3)
+queu_1.put("Pineapple")
 queu_1.put("Banana")
+queu_1.put("Orange")
+queu_1.put("Pineapple")
 #Removing elements from a queue
 print(queu_1.get())
 print(queu_1.get())
+print(queu_1.get_nowait())
 print(type(queu_1))
 
 
 
 
-# #LIFO Principle
+#LIFO Principle
 import queue
 queue_2 = queue.LifoQueue()
 queue_2.put("Apple")
@@ -30,14 +34,14 @@ print(queue_2.get())
 print(type(queue_2))
 
 
-# #Priority Queue Method
+ #Priority Queue Method
 import queue
 queue_3 = queue.PriorityQueue()
 queue_3.put((4,"Ferrari"))
 queue_3.put((5,"Maserati"))
 queue_3.put((2,"Macedes"))
 queue_3.put((1, "BMW"))
-queue_3.put((3, "Subaru"))
+queue_3.put((3, "Subaru","Benze"))
 print(queue_3.get())
 print(queue_3.get())
 print(type(queue_3))
